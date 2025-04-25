@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all 0.3s linear;
 }
 ul,
 ol {
@@ -39,6 +40,16 @@ a {
   font-size: 16px;
   color: #f75e05;
   cursor: pointer;
+}
+.section__btn2:hover {
+  background-image: linear-gradient(to right, #ff3f3a, #f75e05);
+  color: #fff;
+}
+.section__title {
+  font-size: 46px;
+  line-height: 130%;
+  font-weight: 900;
+  color: #1e212c;
 }
 /* Header section styles */
 .header {
@@ -92,7 +103,6 @@ a {
   font-size: 14px;
   font-weight: 700;
   color: #1e212c;
-
 }
 .home__title {
   font-size: 64px;
@@ -104,4 +114,27 @@ a {
 }
 .home__btn2 {
   margin-right: 16px;
+}
+/* Stats section styles */
+.stats__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.stats__item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.stats__circle {
+  background-color: #ff3f3a;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+}
+.stats__description {
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 400;
+  color: #1e212c;
 }
