@@ -30,6 +30,9 @@ a {
   letter-spacing: 0.5px;
   cursor: pointer;
 }
+.section__btn1:hover {
+  opacity: 0.8;
+}
 .section__btn2 {
   background-color: transparent;
   border-radius: 4px;
@@ -51,12 +54,21 @@ a {
   font-weight: 900;
   color: #1e212c;
 }
+.section__subtitle {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+  color: #1e212c;
+  text-transform: uppercase;
+}
 /* Hero background */
 .hero {
   background-image: url("../image/hero-background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  background-position: center;
+  min-height: 1080px;
 }
 /* Header section styles */
 .header {
@@ -147,4 +159,34 @@ a {
   line-height: 160%;
   font-weight: 400;
   color: #1e212c;
+}
+/* About section styles */
+.about {
+  margin: 128px 0;
+}
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 112px;
+}
+.about__title {
+  margin: 8px 0 24px 0;
+}
+.about__item {
+  display: flex;
+  align-items: start;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.about__check {
+  margin-top: 4px;
+}
+.about__text {
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 400;
+  color: #1e212c;
+}
+.about__btn {
+  margin-top: 32px;
 }
